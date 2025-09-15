@@ -37,6 +37,7 @@ An advanced AI-powered trading bot for Quotex platform featuring real-time neura
 - Windows 10/11 (PowerShell)
 - Quotex account
 - Internet connection
+- VPN for bot and website
 
 ## 🛠️ Installation
 
@@ -260,7 +261,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Email**: alet8319@gmail.com
 - **Phone**: +92-3478042183
-- **Issues**: [GitHub Issues](https://github.com/yourusername/pyquotex/issues)
+- **Issues**: [GitHub Issues](https://github.com/jundalnabi/jundalnabi/issues)
 
 ## 🙏 Acknowledgments
 

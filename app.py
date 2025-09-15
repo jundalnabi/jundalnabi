@@ -217,7 +217,7 @@ class PyQuotexCLI:
         """Always create a fresh model for real-time learning."""
         if tf is not None:
             print('[TensorFlow] Creating fresh model for real-time learning')
-            self.setup_model()
+                self.setup_model()
         else:
             print('[TensorFlow] TensorFlow not available, using rule-based learning')
             self.setup_rule_based_learning()
@@ -1343,14 +1343,14 @@ class PyQuotexCLI:
                 elif use_model and len(features) == self.feature_size:
                     # Fallback to learned pattern prediction
                     direction_pred = self.predict_direction_learned(features, candles)
-                else:
-                    # Fallback to basic analysis
-                    if green_count > red_count:
-                        direction_pred = "call"
-                    elif red_count > green_count:
-                        direction_pred = "put"
                     else:
-                        direction_pred = direction
+                    # Fallback to basic analysis
+                        if green_count > red_count:
+                            direction_pred = "call"
+                        elif red_count > green_count:
+                            direction_pred = "put"
+                        else:
+                            direction_pred = direction
                 # Use buy_and_check_win for accurate result and profit
                 balance_before = await self.client.get_balance()
                 await self.buy_and_check_win.__wrapped__(self, next_amount, asset, direction_pred, duration)

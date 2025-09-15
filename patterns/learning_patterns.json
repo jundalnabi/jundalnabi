@@ -1,0 +1,127 @@
+{
+  "learning_patterns": {
+    "candle_patterns": {
+      "{'trend': 'bullish', 'green_ratio': np.float64(0.8), 'red_ratio': np.float64(0.2), 'volatility': 'high', 'momentum': 'positive'}": {
+        "wins": 2,
+        "total": 11,
+        "success_rate": 0.18181818181818182,
+        "confidence": 1.0
+      },
+      "{'trend': 'bearish', 'green_ratio': np.float64(0.4), 'red_ratio': np.float64(0.6), 'volatility': 'high', 'momentum': 'negative'}": {
+        "wins": 8,
+        "total": 15,
+        "success_rate": 0.5333333333333333,
+        "confidence": 1.0
+      },
+      "{'trend': 'bearish', 'green_ratio': np.float64(0.2), 'red_ratio': np.float64(0.8), 'volatility': 'high', 'momentum': 'negative'}": {
+        "wins": 2,
+        "total": 9,
+        "success_rate": 0.2222222222222222,
+        "confidence": 1.0
+      },
+      "{'trend': 'bearish', 'green_ratio': np.float64(0.4), 'red_ratio': np.float64(0.6), 'volatility': 'high', 'momentum': 'positive'}": {
+        "wins": 2,
+        "total": 3,
+        "success_rate": 0.6666666666666666,
+        "confidence": 1.0
+      },
+      "{'trend': 'bullish', 'green_ratio': np.float64(0.6), 'red_ratio': np.float64(0.4), 'volatility': 'high', 'momentum': 'positive'}": {
+        "wins": 10,
+        "total": 17,
+        "success_rate": 0.5882352941176471,
+        "confidence": 1.0
+      },
+      "{'trend': 'bullish', 'green_ratio': np.float64(0.6), 'red_ratio': np.float64(0.4), 'volatility': 'high', 'momentum': 'negative'}": {
+        "wins": 2,
+        "total": 5,
+        "success_rate": 0.4,
+        "confidence": 1.0
+      },
+      "{'trend': 'bullish', 'green_ratio': np.float64(0.6), 'red_ratio': np.float64(0.2), 'volatility': 'high', 'momentum': 'negative'}": {
+        "wins": 0,
+        "total": 1,
+        "success_rate": 0.0,
+        "confidence": 0.3333333333333333
+      },
+      "{'trend': 'neutral', 'green_ratio': np.float64(0.4), 'red_ratio': np.float64(0.4), 'volatility': 'high', 'momentum': 'positive'}": {
+        "wins": 0,
+        "total": 1,
+        "success_rate": 0.0,
+        "confidence": 0.3333333333333333
+      },
+      "{'trend': 'bullish', 'green_ratio': np.float64(1.0), 'red_ratio': np.float64(0.0), 'volatility': 'high', 'momentum': 'positive'}": {
+        "wins": 1,
+        "total": 2,
+        "success_rate": 0.5,
+        "confidence": 0.6666666666666666
+      },
+      "{'trend': 'bearish', 'green_ratio': np.float64(0.0), 'red_ratio': np.float64(1.0), 'volatility': 'high', 'momentum': 'negative'}": {
+        "wins": 1,
+        "total": 2,
+        "success_rate": 0.5,
+        "confidence": 0.6666666666666666
+      }
+    },
+    "indicator_patterns": {
+      "{'rsi_signal': 'neutral', 'macd_signal': 'bearish', 'stoch_signal': 'neutral', 'signal_strength': 'weak_bearish'}": {
+        "wins": 11,
+        "total": 21,
+        "success_rate": 0.5238095238095238,
+        "confidence": 1.0
+      },
+      "{'rsi_signal': 'neutral', 'macd_signal': 'bearish', 'stoch_signal': 'oversold', 'signal_strength': 'neutral'}": {
+        "wins": 6,
+        "total": 15,
+        "success_rate": 0.4,
+        "confidence": 1.0
+      },
+      "{'rsi_signal': 'neutral', 'macd_signal': 'bearish', 'stoch_signal': 'overbought', 'signal_strength': 'strong_bearish'}": {
+        "wins": 2,
+        "total": 3,
+        "success_rate": 0.6666666666666666,
+        "confidence": 1.0
+      },
+      "{'rsi_signal': 'neutral', 'macd_signal': 'bullish', 'stoch_signal': 'overbought', 'signal_strength': 'neutral'}": {
+        "wins": 3,
+        "total": 12,
+        "success_rate": 0.25,
+        "confidence": 1.0
+      },
+      "{'rsi_signal': 'neutral', 'macd_signal': 'bullish', 'stoch_signal': 'neutral', 'signal_strength': 'weak_bullish'}": {
+        "wins": 6,
+        "total": 15,
+        "success_rate": 0.4,
+        "confidence": 1.0
+      }
+    },
+    "time_patterns": {
+      "{'hour': 2, 'time_of_day': 'night'}": {
+        "wins": 16,
+        "total": 38,
+        "success_rate": 0.42105263157894735,
+        "confidence": 1.0
+      },
+      "{'hour': 3, 'time_of_day': 'night'}": {
+        "wins": 12,
+        "total": 28,
+        "success_rate": 0.42857142857142855,
+        "confidence": 1.0
+      }
+    },
+    "streak_patterns": {},
+    "market_conditions": {
+      "{'trend': 'unknown', 'volatility': 'unknown', 'volume': 'unknown'}": {
+        "wins": 28,
+        "total": 66,
+        "success_rate": 0.42424242424242425,
+        "confidence": 1.0
+      }
+    }
+  },
+  "learning_confidence": 0.7777777777777778,
+  "current_strategy": "balanced",
+  "strategy_confidence": 0.20000000000000004,
+  "adaptation_speed": 0.1,
+  "min_samples": 3,
+  "timestamp": 1757929958.8017406
+}

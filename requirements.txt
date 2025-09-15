@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 beautifulsoup4==4.13.4
 certifi==2025.6.15
 charset-normalizer==3.4.2
@@ -9,3 +10,14 @@ soupsieve==2.7
 typing_extensions==4.14.1
 urllib3==2.5.0
 websocket-client==1.8.0
+=======
+beautifulsoup4==4.11.2
+certifi==2022.12.7
+charset-normalizer==3.1.0
+idna==3.4
+requests==2.28.2
+simplejson==3.18.3
+soupsieve==2.4
+urllib3==1.26.14
+websocket-client==1.5.1
+>>>>>>> 16ac299 (Initial commit)

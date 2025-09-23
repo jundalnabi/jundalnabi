@@ -1,4 +1,4 @@
-# PyQuotex - AI-Powered Trading Bot with Neural Network!
+# PyQuotex - AI-Powered Trading Bot with Neural Network
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://tensorflow.org)
